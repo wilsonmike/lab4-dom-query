@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #3494e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ec6ead, #3494e6);
+  background: linear-gradient(to right, #ec6ead, #3494e6);
+}
+.total-cost {
+  display: inline-block;
+  font-size: 25px;
+  justify-content: center;
+  text-align: center;
+  background-color: purple;
+  height: 100px;
+  width: 200px;
+  padding: 30px;
+  border-radius: 20px;
+  margin-right: 10px;
+  color: white;
+}
+.button-style {
+  padding: 10px;
+  height: 20%;
+  width: 30%;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+}
+.btn-container {
+  display: flex;
+  padding: 40px;
+  height: 300px;
+  width: 75%;
+}
+.make-money {
+  display: flex;
+  display: inline-block;
+  font-size: 20px;
+}
+.money-line {
+  background-color: #3494e6;
+  font-weight: bold;
+}
+.make-btn {
+  padding: 10px;
+}
+.light-bulb {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 30px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.on-yellow {
+  background-color: yellow;
+}
+.light-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.style-light-btn {
+  margin-top: 10px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+}
+.form-money {
+  padding: 20px;
+  width: 100%;
+  height: 200px;
+  background: #3494e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ec6ead, #3494e6);
+  background: linear-gradient(to right, #ec6ead, #3494e6);
+  border-radius: 25px;
+  box-shadow: 5px 10px purple;
+}
+.coin-img {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  display: inline-block;
+  margin-right: 10px;
+}
+.destroy {
+  margin-top: 10px;
+  padding: 10px;
+  color: white;
+  background-color: red;
+}

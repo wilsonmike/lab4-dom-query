@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main class="btn-container">
+        <p class="total-cost"></p>
+        <button data-price="2.00" class="lime snack-price button-style">Lime</button>
+        <button data-price="4.00" class="chocolate snack-price button-style">Chocolate Bar</button>
+        <button data-price="3.00" class="fruit snack-price button-style">Fruit Gummies</button>
+        <button data-price="6.00" class="peanut snack-price button-style">Peanut</button>
+        <button class="button-style reset-total">Hide Total</button>
+    </main>
+    <section class="make-money">
+        <form class="form-money">
+            <label for="number">How Many?</label>
+            <input type="number" id="howMany" name="howMany">
+            <label for="coin">Which Coin?</label>
+            <select name="coin" id="coin">
+                <option value="penny">Penny</option>
+                <option value="nickel">Nickel</option>
+                <option value="dime">Dime</option>
+                <option value="quarter">Quarter</option>
+            </select>
+            <button class="make-btn">Make Money!</button>
+            <div class="coin-container">
+            </div>
+        </form>
+        
+        <div class="light-container">
+        <div class="light-bulb">Light Bulb</div>
+        <button class="style-light-btn on-btn">On</button>
+        <button class="style-light-btn off-btn">Off</button>
+        <button class="style-light-btn toggle-btn">Toggle</button>
+        <button class="destroy">End</button>
+        </div>
+    </section>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
